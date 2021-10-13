@@ -1,0 +1,27 @@
+{
+  "name": "spesaprogetto",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000s\u0000p\u0000e\u0000s\u0000a\u0000-\u0000s\u0000e\u0000r\u0000v\u0000e\u0000r\u0000-\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000#\u0000 \u0000s\u0000e\u0000r\u0000v\u0000i\u0000z\u0000i\u0000o\u0000s\u0000p\u0000e\u0000s\u0000a\u0000-\u0000s\u0000e\u0000r\u0000v\u0000e\u0000r\u0000-\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "watch": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/20029718/serviziospesa-server-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/20029718/serviziospesa-server-app.git/issues"
+  },
+  "homepage": "https://github.com/20029718/serviziospesa-server-app.git#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10",
+    "moongoose": "^0.0.5",
+    "nodemon": "^2.0.13"
+  }
+}

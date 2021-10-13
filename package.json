@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/20029718/serviziospesa-server-app.git#readme",
   "dependencies": {
+    "check-updates": "0.0.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "heroku": "^7.59.0",

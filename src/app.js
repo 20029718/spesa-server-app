@@ -6,13 +6,13 @@ const userRoute = require('./routes/users/usersRoute');
 const {errorHandler,notFound} = require('./middlewares/errorMiddleware');
 const app = express();
 //env
-dotenv.config();
+dotenv.config(); 
 
-const logger = (req,res,next)=>{
-    console.log("Sono loggato");
-    next();
-};
-app.use(logger);
+//const logger = (req,res,next)=>{
+  //  console.log("Sono loggato ");
+  //  next();
+//};
+//app.use(logger);
 
 //dbconnect
 dbConnect();

@@ -1,6 +1,6 @@
 const mongoose= require("mongoose");
 const { Schema } = mongoose;
-const bcrypt =require("bcryptjs");
+const bcrypt =require("bcrypt");
 //schema
 const userSchema =  new Schema({
         firstname: {
@@ -16,13 +16,13 @@ const userSchema =  new Schema({
             type: String,  
         },
         password: {
-            required: [true,'Password richiesta'],
+            required: [true ,'Password richiesta '],
             type: String,
         }, 
         IsAdmin: {
             type: Boolean, 
             default: false,
-        },
+        }, 
         
     },
     {
